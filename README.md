@@ -51,12 +51,6 @@ The To-Do App features a graphical user interface where users can add, remove, u
   - **`create_button(self, text, row, column, frame=None, text_color='black')`**: Creates a button with specified text and color, and places it in the specified frame.
   - **`button_click(self, text)`**: Handles button clicks for various actions such as adding, removing, and updating tasks.
 
-```python
-import tkinter as tk
-from tkcalendar import Calendar
-import json
-```
-
 ## Usage
 
 - **Add Task**: Enter a task description and click "Add" to add it to the active tasks list.
