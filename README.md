@@ -35,10 +35,12 @@ The To-Do App features a graphical user interface where users can add, remove, u
    cd ToDoApp
 3. **Install Dependencies**:
    ```bash
-   pip install tkcalendar
+   pip install -r requirements.txt
 4. **Run the Application**:
    ```bash
    python todo_app.py
+
+Note: The app creates/uses `tasks.json` locally to store your tasks. The file is ignored in this repo to avoid uploading personal data, an empty example is provided as `tasks_example.json`.
 
 ## Code Explanation
 
