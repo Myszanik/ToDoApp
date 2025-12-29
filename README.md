@@ -4,17 +4,17 @@ This repository contains a simple To-Do application built using Python's `tkinte
 
 ## Overview
 
-The To-Do App features a graphical user interface where users can add, remove, update, and prioritize tasks. Tasks can be categorized into active, completed, and incomplete lists. The app also includes a calendar for selecting dates.
+The To-Do App features a graphical user interface where users can add, remove, update, and prioritise tasks. Tasks can be categorised into active, completed, and incomplete lists. The app also includes a calendar for selecting dates.
 
 ## Features
 
 - **Task Management**:
-  - Add, remove, update, and prioritize tasks.
+  - Add, remove, update, and prioritise tasks.
   - Mark tasks as completed or incomplete.
   - Clear all tasks.
 
-- **Task Prioritization**:
-  - Set priority levels (1 to 5) with different colors.
+- **Task Prioritisation**:
+  - Set priority levels (1 to 5) with different colours.
 
 - **Calendar**:
   - Integrated calendar for selecting dates.
@@ -27,28 +27,28 @@ The To-Do App features a graphical user interface where users can add, remove, u
 
 ## How to Run
 
-1. **Clone this Repository**:
+1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
-1. **Navigate to the Project Directory**:
+   git clone https://github.com/Myszanik/ToDoApp.git
+2. **Navigate to the Project Directory**:
    ```bash
-   cd todo-app
-1. **Install Dependencies**:
+   cd ToDoApp
+3. **Install Dependencies**:
    ```bash
    pip install tkcalendar
-1. **Run the Application**:
+4. **Run the Application**:
    ```bash
    python todo_app.py
 
 ## Code Explanation
 
 - **`ToDoApp` Class**: Contains the main logic for the To-Do app GUI.
-  - **`__init__(self, master)`**: Initializes the GUI components including the entry field, task listboxes, buttons, and calendar.
+  - **`__init__(self, master)`**: Initialises the GUI components including the entry field, task listboxes, buttons, and calendar.
   - **`update_task_display(self)`**: Updates the task listboxes to reflect the current state of tasks.
   - **`save_tasks(self)`**: Saves tasks to a JSON file.
   - **`load_tasks(self)`**: Loads tasks from a JSON file.
   - **`on_close(self)`**: Handles the application close event, saving tasks before exiting.
-  - **`create_button(self, text, row, column, frame=None, text_color='black')`**: Creates a button with specified text and color, and places it in the specified frame.
+  - **`create_button(self, text, row, column, frame=None, text_color='black')`**: Creates a button with specified text and colour, and places it in the specified frame.
   - **`button_click(self, text)`**: Handles button clicks for various actions such as adding, removing, and updating tasks.
 
 ## Usage
@@ -65,7 +65,7 @@ The To-Do App features a graphical user interface where users can add, remove, u
 ## Acknowledgements
 
 - **`tkinter`**: For providing a simple and easy-to-use GUI framework for Python.
-- **`tkcalendar`**: For offering a flexible and customizable calendar widget, enhancing the functionality of the To-Do app.
+- **`tkcalendar`**: For offering a flexible and customisable calendar widget, enhancing the functionality of the To-Do app.
 - **`json`**: For allowing easy and efficient storage and retrieval of task data in JSON format.
 
 ## Status
