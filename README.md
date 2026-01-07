@@ -23,7 +23,7 @@ The To-Do App features a graphical user interface where users can add, remove, u
 
 - Python 3.x
 - `tkinter` (usually comes pre-installed with Python)
-- `tkcalendar` (install via `pip install tkcalendar`)
+- `tkcalendar` (pip install -r requirements.txt)
 
 ## How to Run
 
