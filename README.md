@@ -25,19 +25,25 @@ The To-Do App features a graphical user interface where users can add, remove, u
 - `tkinter` (usually comes pre-installed with Python)
 - `tkcalendar` (pip install -r requirements.txt)
 
-## How to Run
+## Setup (Windows, PowerShell)
 
 1. **Clone this repository**:
-   ```bash
+   ```powershell
    git clone https://github.com/Myszanik/ToDoApp.git
 2. **Navigate to the Project Directory**:
-   ```bash
+   ```powershell
    cd ToDoApp
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-4. **Run the Application**:
-   ```bash
+3. **Create and activate a virtual environment (recommended)**:
+   ```powershell
+   python -m venv .venv
+   `
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+4. **Install Dependencies**:
+   ```powershell
+   python -m pip install -r requirements.txt
+5. **Run the Application**:
+   ```powershell
    python todo_app.py
 
 Note: The app creates/uses `tasks.json` locally to store your tasks. The file is ignored in this repo to avoid uploading personal data, an empty example is provided as `tasks_example.json`.
