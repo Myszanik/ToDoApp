@@ -36,7 +36,7 @@ The To-Do App features a graphical user interface where users can add, remove, u
 3. **Create and activate a virtual environment (recommended)**:
    ```powershell
    python -m venv .venv
-   `
+   ```
    ```powershell
    .\.venv\Scripts\Activate.ps1
 4. **Install Dependencies**:
