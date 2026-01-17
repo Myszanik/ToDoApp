@@ -64,6 +64,14 @@ Note: The app creates/uses `tasks.json` locally to store your tasks. The file is
 - **Set Priority**: Click "Priority" to access the priority menu and set the priority level of a selected task.
 - **Clear All**: Click "Clear All" to remove all tasks from all lists.
 
+## Screenshots
+
+### Main screen (add and manage active tasks)
+![Main screen](screenshots/main.png)
+
+### Task status and priorities (completed, incomplete, priority colours)
+![Task status](screenshots/status.png)
+
 ## Acknowledgements
 
 - **`tkinter`**: For providing a simple and easy-to-use GUI framework for Python.
